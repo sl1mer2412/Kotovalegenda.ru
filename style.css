@@ -1,0 +1,104 @@
+@media screen and (max-width: 1200px) {
+	
+}
+
+@media screen and (max-width: 998px) {
+
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 576px) {
+	
+}
+body {
+    background-image: url(../img/3f2690e1f04111ef99ab12bd720b986d_1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+}
+h1 {
+    font-family: "Montserrat", serif;
+    font-size: 50; 
+}
+p {
+    font-size: 14;
+    font-family:"Sans", serif;
+}
+p1 {
+    font-family: "Delicious Handrawn", serif;
+	}
+.call-anim{
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+.stroke-text {
+	color: #000000; 
+	-webkit-text-stroke: 1px #FFFFFF; 
+	text-stroke: 1px #FFFFFF; 
+}
+.footer-text {
+    color:black;
+    margin: auto auto;
+}
+footer {
+    background: linear-gradient(90deg, rgba(0,0,0,0.7147233893557423) 50%, rgba(175,142,7,1) 56%);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(32px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
