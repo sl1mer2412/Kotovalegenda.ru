@@ -26,6 +26,10 @@ body {
 	text-align: center;
 	min-height: 100vh;
 }
+img {
+	display: block;
+	margin: 0 auto;
+}
 h1 {
     font-family: "Montserrat", serif;
     font-size: 50; 
